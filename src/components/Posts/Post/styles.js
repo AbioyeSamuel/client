@@ -3,9 +3,11 @@ import { makeStyles } from '@material-ui/core/styles';
 export default makeStyles({
   media: {
     height: 0,
-    paddingTop: '56.25%',
+    paddingTop: '65%',
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
-    backgroundBlendMode: 'darken',
+    '&:hover': {
+      backgroundBlendMode: 'darken',
+    },
   },
   border: {
     border: 'solid',
@@ -42,7 +44,7 @@ export default makeStyles({
     margin: '20px',
   },
   title: {
-    padding: '0 16px',
+    padding: '13px 16px 0',
   },
   cardActions: {
     padding: '0 16px 8px 16px',
