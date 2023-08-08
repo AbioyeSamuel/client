@@ -22,6 +22,7 @@ export default makeStyles({
     borderRadius: '15px',
     height: '100%',
     position: 'relative',
+    cursor: 'pointer',
   },
   overlay: {
     position: 'absolute',

@@ -6,6 +6,7 @@ import decode from 'jwt-decode';
 
 import useStyles from './styles';
 import meme from '../../src/images/meme.png';
+import memeVerse from '../../src/images/memeVerse.png'
 
 
 const Navbar = () => {
@@ -40,8 +41,10 @@ const Navbar = () => {
     return (
     <AppBar className={classes.appBar} position="static" color="inherit">
         <div className={classes.brandContainer}>
-            <Typography component={Link} to="/" className={classes.heading} variant="h2" align="center">memeVerse</Typography>
-            <img className={classes.image} src={meme} alt="memories" height="60" />
+        <Link to="/">
+            <img component={Link} to="/" className={classes.logo} src={memeVerse} alt='memeVerse Logo' />
+        </Link> 
+            <img className={classes.image} src={meme} alt="meme" height="60" />
         </div>
         <Toolbar className={classes.toolbar}>
             {user ? (

@@ -11,9 +11,11 @@ export default makeStyles((theme) => ({
     alignItems: 'center',
     padding: '10px 50px',
   },
-  heading: {
-    color: 'rgba(0,183,255, 1)',
-    textDecoration: 'none',
+  logo: {
+    cursor: 'pointer',
+    marginRight: '15px',
+    height: '50px',
+    paddingBottom: '2px',
   },
   image: {
     marginLeft: '15px',
