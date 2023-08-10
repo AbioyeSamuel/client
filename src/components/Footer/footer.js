@@ -1,11 +1,12 @@
 import React from "react";
+import footerStyles from "./style";
 
 const Footer = () => {
     let date = new Date();
-    let year = date.getFullYear;
+    let year = date.getFullYear();
 
     return (
-        <h6>Copyright {year} @ Samuel Abioye</h6>
+        <h5 style={footerStyles.footer}>©{year} Samuel Abioye. All rights reserved.</h5>
     )
 }
 

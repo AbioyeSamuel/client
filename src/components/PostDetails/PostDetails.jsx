@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import moment from 'moment';
 import { useParams, useHistory } from 'react-router-dom';
 import CommentSection from './CommentSection';
-import Footer from '../Footer/footer';
 
 import useStyles from './styles';
 import { getPost, getPostsBySearch } from '../../actions/posts';
@@ -79,7 +78,6 @@ const PostDetails = () => {
           </div>
         </div>
       )}
-      <Footer />
     </Paper>
     
   )

@@ -8,6 +8,7 @@ import Home from "./components/Home/Home";
 import Auth from "./components/Auth/Auth";
 
 import { Redirect } from 'react-router';
+import Footer from "./components/Footer/footer";
 
 
 const App = () => {
@@ -24,9 +25,10 @@ const App = () => {
         <Route path="/auth" exact component={() => (!user ? <Auth /> : <Redirect to="/posts" />)}/>
       </Switch>
     </Container>
+    <Footer /> 
   </BrowserRouter>
-  )
   
+  )
 }
       
 export default App;

@@ -10,6 +10,7 @@ import Posts from '../Posts/Posts';
 import Form from '../Form/Form';
 
 import useStyles from './styles'; 
+import Footer from '../Footer/footer';
 
 function useQuery() {
     return new URLSearchParams(useLocation().search);
@@ -76,7 +77,9 @@ const Home = () => {
                   </Grid>
               </Grid>
           </Container>
+          
       </Grow>
+      
    );
 }
 

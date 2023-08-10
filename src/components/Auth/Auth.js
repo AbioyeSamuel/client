@@ -98,7 +98,7 @@ const Auth = () => {
                 onFailure={googleFailure}
                 cookiePolicy='single_host_origin'
                 />
-                
+
                 <Grid container justifyContent="flex-end">
                     <Grid item>
                         <Button onClick={switchMode}>
@@ -112,11 +112,5 @@ const Auth = () => {
   )
 }
 
-gapi.load("client:auth2", () => {
-    gapi.client.init({
-        clientId: '348697577249-ss190ria4gkcs445297agoblfdf1q0rk.apps.googleusercontent.com',
-        plugin_name: "chat",
-    });
-});
 
-export default Auth
+export default Auth;

@@ -23,7 +23,7 @@ const Posts = ({setCurrentId}) => {
                     </Grid>
                 ))}
             </Grid>
-        )        
+        )      
     )
 }
 
