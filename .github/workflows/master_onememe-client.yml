@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'onememe-client'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FFC38676498546BB841055B56E668AA9 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DDA710E0EF6A447FBE5F5FB97F499C79 }}
           package: .
